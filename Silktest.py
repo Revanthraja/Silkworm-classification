@@ -12,7 +12,7 @@ import pyttsx3
 from keras.models import load_model
 from PIL import Image
 image_directory='b1/'
-model=load_model('Silkworm10Epoch.h6')
+model=load_model('Silkworm10Epoch.h5')
 image=cv2.imread('E:/images/Genrate-img/Test/diseased/_0_1560141.jpg')
 img=Image.fromarray(image)
 
